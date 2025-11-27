@@ -1,0 +1,57 @@
+{"Message": "API request received", "Metadata": {"Timestamp": "2025-10-02T14:01:00Z", "LoggerType": "INFO", "LoggerName": "api-server", "Filename": "server.py", "Function": "handle_request", "Line": 45}}
+{"Message": "Background worker started", "Metadata": {"Timestamp": "2025-10-12T05:02:20Z", "LoggerType": "INFO", "LoggerName": "worker", "Filename": "worker.py", "Function": "init", "Line": 12}}
+{"Message": "Cache refreshed successfully", "Metadata": {"Timestamp": "2025-10-12T11:03:10Z", "LoggerType": "INFO", "LoggerName": "cache-service", "Filename": "cache.py", "Function": "refresh", "Line": 88}}
+{"Message": "User authentication failed", "Metadata": {"Timestamp": "2024-07-12T03:04:32Z", "LoggerType": "ERROR", "LoggerName": "auth-api", "Filename": "auth.py", "Function": "login", "Line": 109}}
+{"Message": "Database connection error", "Metadata": {"Timestamp": "2025-12-12T07:05:50Z", "LoggerType": "ERROR", "LoggerName": "db-connector", "Filename": "db.py", "Function": "connect", "Line": 301}}
+{"Message": "Order processed successfully", "Metadata": {"Timestamp": "2025-10-12T07:06:30Z", "LoggerType": "INFO", "LoggerName": "order-api", "Filename": "order.py", "Function": "process", "Line": 210}}
+{"Message": "Payment gateway timeout", "Metadata": {"Timestamp": "2025-11-16T04:07:40Z", "LoggerType": "ERROR", "LoggerName": "payment-api", "Filename": "payment.py", "Function": "charge", "Line": 432}}
+{"Message": "Session validation started", "Metadata": {"Timestamp": "2024-10-12T17:08:10Z", "LoggerType": "INFO", "LoggerName": "session-service", "Filename": "session.py", "Function": "validate", "Line": 61}}
+{"Message": "Token expired for user", "Metadata": {"Timestamp": "2024-10-12T10:08:40Z", "LoggerType": "ERROR", "LoggerName": "auth-api", "Filename": "token.py", "Function": "verify", "Line": 134}}
+{"Message": "File uploaded successfully", "Metadata": {"Timestamp": "2024-10-12T10:09:09Z", "LoggerType": "INFO", "LoggerName": "upload-service", "Filename": "upload.py", "Function": "store", "Line": 72}}
+{"Message": "File size exceeds limit", "Metadata": {"Timestamp": "2024-10-12T10:09:50Z", "LoggerType": "ERROR", "LoggerName": "upload-service", "Filename": "upload.py", "Function": "validate", "Line": 91}}
+{"Message": "Notification sent", "Metadata": {"Timestamp": "2024-10-12T10:10:20Z", "LoggerType": "INFO", "LoggerName": "notification-engine", "Filename": "notify.py", "Function": "send", "Line": 38}}
+{"Message": "Notification queue delay detected", "Metadata": {"Timestamp": "2024-10-12T10:11:00Z", "LoggerType": "WARN", "LoggerName": "notification-engine", "Filename": "notify.py", "Function": "queue_status", "Line": 67}}
+{"Message": "Inventory updated", "Metadata": {"Timestamp": "2024-10-12T10:11:30Z", "LoggerType": "INFO", "LoggerName": "inventory-service", "Filename": "inventory.py", "Function": "update_stock", "Line": 104}}
+{"Message": "Inventory sync failed", "Metadata": {"Timestamp": "2024-10-12T10:12:05Z", "LoggerType": "ERROR", "LoggerName": "inventory-service", "Filename": "inventory.py", "Function": "sync", "Line": 222}}
+{"Message": "Configuration loaded", "Metadata": {"Timestamp": "2024-10-12T01:12:41Z", "LoggerType": "INFO", "LoggerName": "config-loader", "Filename": "config.py", "Function": "load", "Line": 15}}
+{"Message": "Missing configuration key", "Metadata": {"Timestamp": "2024-10-12T14:13:12Z", "LoggerType": "WARN", "LoggerName": "config-loader", "Filename": "config.py", "Function": "validate", "Line": 32}}
+
+{"Message": "Email template compiled", "Metadata": {"Timestamp": "2024-10-12T10:13:45Z", "LoggerType": "INFO", "LoggerName": "email-service", "Filename": "email.py", "Function": "compile_template", "Line": 58}}
+{"Message": "Email delivery failed", "Metadata": {"Timestamp": "2024-10-12T10:14:14Z", "LoggerType": "ERROR", "LoggerName": "email-service", "Filename": "email.py", "Function": "deliver", "Line": 84}}
+{"Message": "Search index updated", "Metadata": {"Timestamp": "2024-10-12T10:14:54Z", "LoggerType": "INFO", "LoggerName": "search-engine", "Filename": "indexer.py", "Function": "update", "Line": 149}}
+{"Message": "Search index corruption detected", "Metadata": {"Timestamp": "2024-10-12T10:15:32Z", "LoggerType": "ERROR", "LoggerName": "search-engine", "Filename": "indexer.py", "Function": "validate", "Line": 188}}
+{"Message": "Recommendation engine started", "Metadata": {"Timestamp": "2024-10-12T10:16:05Z", "LoggerType": "INFO", "LoggerName": "recommender", "Filename": "recommender.py", "Function": "start", "Line": 25}}
+{"Message": "Insufficient data for recommendation", "Metadata": {"Timestamp": "2024-10-12T10:16:49Z", "LoggerType": "WARN", "LoggerName": "recommender", "Filename": "recommender.py", "Function": "recommend", "Line": 91}}
+{"Message": "Billing cycle started", "Metadata": {"Timestamp": "2024-10-12T10:17:20Z", "LoggerType": "INFO", "LoggerName": "billing-engine", "Filename": "billing.py", "Function": "cycle_start", "Line": 54}}
+{"Message": "Billing computation error", "Metadata": {"Timestamp": "2024-10-12T10:17:55Z", "LoggerType": "ERROR", "LoggerName": "billing-engine", "Filename": "billing.py", "Function": "compute", "Line": 143}}
+{"Message": "CSV export completed", "Metadata": {"Timestamp": "2024-11-12T10:18:30Z", "LoggerType": "INFO", "LoggerName": "exporter", "Filename": "export.py", "Function": "export_csv", "Line": 72}}
+{"Message": "CSV export failed", "Metadata": {"Timestamp": "2025-05-14T10:19:05Z", "LoggerType": "ERROR", "LoggerName": "exporter", "Filename": "export.py", "Function": "export_csv", "Line": 95}}
+
+{"Message": "Redis connection established", "Metadata": {"Timestamp": "2025-06-14T10:19:40Z", "LoggerType": "INFO", "LoggerName": "cache-service", "Filename": "redis.py", "Function": "connect", "Line": 20}}
+{"Message": "Redis connection timeout", "Metadata": {"Timestamp": "2024-07-22T10:20:21Z", "LoggerType": "ERROR", "LoggerName": "cache-service", "Filename": "redis.py", "Function": "connect", "Line": 57}}
+{"Message": "Load balancer health check passed", "Metadata": {"Timestamp": "2025-08-22T10:20:55Z", "LoggerType": "INFO", "LoggerName": "lb-monitor", "Filename": "loadbalancer.py", "Function": "health_check", "Line": 14}}
+{"Message": "Load balancer latency high", "Metadata": {"Timestamp": "2025-09-22T10:21:34Z", "LoggerType": "WARN", "LoggerName": "lb-monitor", "Filename": "loadbalancer.py", "Function": "health_check", "Line": 41}}
+{"Message": "Metrics reported to dashboard", "Metadata": {"Timestamp": "2025-10-12T10:22:12Z", "LoggerType": "INFO", "LoggerName": "metrics", "Filename": "metrics.py", "Function": "report", "Line": 20}}
+{"Message": "Metrics reporting failed", "Metadata": {"Timestamp": "2024-10-12T10:22:50Z", "LoggerType": "ERROR", "LoggerName": "metrics", "Filename": "metrics.py", "Function": "report", "Line": 44}}
+{"Message": "New user registered", "Metadata": {"Timestamp": "2024-10-12T10:23:25Z", "LoggerType": "INFO", "LoggerName": "user-service", "Filename": "user.py", "Function": "register", "Line": 102}}
+{"Message": "Duplicate user registration attempt", "Metadata": {"Timestamp": "2024-10-12T10:24:05Z", "LoggerType": "WARN", "LoggerName": "user-service", "Filename": "user.py", "Function": "register", "Line": 118}}
+{"Message": "Password reset link generated", "Metadata": {"Timestamp": "2024-10-12T10:24:41Z", "LoggerType": "INFO", "LoggerName": "auth-api", "Filename": "reset.py", "Function": "generate_link", "Line": 45}}
+{"Message": "Password reset failed", "Metadata": {"Timestamp": "2024-10-12T10:25:19Z", "LoggerType": "ERROR", "LoggerName": "auth-api", "Filename": "reset.py", "Function": "reset", "Line": 89}}
+
+{"Message": "Cron job executed", "Metadata": {"Timestamp": "2024-10-12T05:25:55Z", "LoggerType": "INFO", "LoggerName": "scheduler", "Filename": "cron.py", "Function": "run", "Line": 12}}
+{"Message": "Cron job missed", "Metadata": {"Timestamp": "2024-10-12T04:26:35Z", "LoggerType": "WARN", "LoggerName": "scheduler", "Filename": "cron.py", "Function": "run", "Line": 28}}
+{"Message": "Geo lookup completed", "Metadata": {"Timestamp": "2024-10-12T06:27:15Z", "LoggerType": "INFO", "LoggerName": "geo-service", "Filename": "geo.py", "Function": "lookup", "Line": 63}}
+{"Message": "Geo lookup failed", "Metadata": {"Timestamp": "2024-10-12T02:27:55Z", "LoggerType": "ERROR", "LoggerName": "geo-service", "Filename": "geo.py", "Function": "lookup", "Line": 92}}
+{"Message": "Webhook delivered", "Metadata": {"Timestamp": "2024-10-12T10:28:30Z", "LoggerType": "INFO", "LoggerName": "webhook-service", "Filename": "webhook.py", "Function": "deliver", "Line": 110}}
+{"Message": "Webhook delivery retry scheduled", "Metadata": {"Timestamp": "2024-10-12T11:29:05Z", "LoggerType": "WARN", "LoggerName": "webhook-service", "Filename": "webhook.py", "Function": "retry", "Line": 139}}
+{"Message": "System memory within limits", "Metadata": {"Timestamp": "2024-10-12T13:29:40Z", "LoggerType": "INFO", "LoggerName": "system-monitor", "Filename": "monitor.py", "Function": "check_memory", "Line": 45}}
+{"Message": "System memory critical", "Metadata": {"Timestamp": "2024-10-12T12:30:12Z", "LoggerType": "ERROR", "LoggerName": "system-monitor", "Filename": "monitor.py", "Function": "check_memory", "Line": 61}}
+{"Message": "Disk usage normal", "Metadata": {"Timestamp": "2024-10-12T07:30:55Z", "LoggerType": "INFO", "LoggerName": "system-monitor", "Filename": "monitor.py", "Function": "check_disk", "Line": 74}}
+{"Message": "Disk space low", "Metadata": {"Timestamp": "2024-10-12T03:31:31Z", "LoggerType": "WARN", "LoggerName": "system-monitor", "Filename": "monitor.py", "Function": "check_disk", "Line": 89}}
+{"Message": "Service restarted", "Metadata": {"Timestamp": "2024-10-12T04:32:05Z", "LoggerType": "INFO", "LoggerName": "service-manager", "Filename": "manager.py", "Function": "restart", "Line": 34}}
+{"Message": "Service restart failure", "Metadata": {"Timestamp": "2024-10-12T07:32:44Z", "LoggerType": "ERROR", "LoggerName": "service-manager", "Filename": "manager.py", "Function": "restart", "Line": 52}}
+
+
+
+
+
